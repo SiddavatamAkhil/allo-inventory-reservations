@@ -1,5 +1,5 @@
 //import { prisma } from './prisma'
-
+import { prisma } from "@/lib/prisma";
 export async function getAvailableUnits(
   productId: string,
   warehouseId: string
